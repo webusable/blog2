@@ -1,10 +1,8 @@
 :root {
-    --color-1: #aa3c39;
-    --color-2: #557714;
-    --color-3: #226666;
-    --color-4: #003133;
-    --color-texto: #1a1a2e;
-    --color-acento: #e94560;
+    --color-primario: #341456;
+    --color-secundario: #647a14;
+    --color-terciario: #806715;
+    --color-texto: #222;
 }
 
 body,
@@ -17,11 +15,35 @@ h6 {
     font-family: "Lato", sans-serif;
 }
 
+h1,
+h2,
+h3 {
+    color: var(--color-primario);
+}
+
+h4,
+h5,
+h6 {
+    color: var(--color-secundario);
+}
+
 body,
 html {
     height: 100%;
-    color: #777;
+    /* color: #777; */
     line-height: 1.8;
+}
+
+html,
+p,
+li,
+span {
+    color: var(--color-texto);
+}
+
+p a,
+li a {
+    color: var(--color-terciario);
 }
 
 /* body,
