@@ -2,4 +2,4 @@
 
 Sitio web de probas para o curso IFCD0110
 
-Visítame en: https://webusable.github.io/webblog/
+Visítame en: https://webusable.github.io/blog2
