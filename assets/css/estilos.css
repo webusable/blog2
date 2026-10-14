@@ -1,3 +1,12 @@
+:root {
+    --color-1: #aa3c39;
+    --color-2: #557714;
+    --color-3: #226666;
+    --color-4: #003133;
+    --color-texto: #1a1a2e;
+    --color-acento: #e94560;
+}
+
 body,
 h1,
 h2,
@@ -15,11 +24,54 @@ html {
     line-height: 1.8;
 }
 
+/* body,
+html,
+p,
+li,
+span {
+    color: var(--color-1);
+}
+
+a {
+    color: var(--color-3);
+
+    &:hover {
+        color: var(--color-4);
+    }
+} */
+
 ol,
 ul {
     list-style: none;
     margin: 0;
     padding: 0;
+}
+
+ol li,
+ul li {
+    display: inline-block;
+}
+
+article.contacto address ul li {
+    display: block;
+}
+
+article.contacto address ul li a {
+    text-decoration: none;
+    color: greenyellow;
+}
+
+.site-header {
+    display: flex;
+    align-items: center;
+
+    & h1 {
+        width: 100%;
+    }
+}
+
+.bg-full {
+    width: 100%;
 }
 
 /* Parallax images */
