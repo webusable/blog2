@@ -15,6 +15,13 @@ html {
     line-height: 1.8;
 }
 
+ol,
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
 /* Parallax images */
 .bgimg-1,
 .bgimg-2,
@@ -47,6 +54,10 @@ html {
 
 .w3-hover-opacity {
     cursor: pointer;
+}
+
+.pechado {
+    display: none;
 }
 
 /* Turn off parallax scrolling on tablets and phones */
