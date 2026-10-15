@@ -10,7 +10,15 @@
     --bg-url-portada: url("https://www.w3schools.com/w3images/parallax1.jpg");
     --bg-url-parallax-2: url("https://cdn.pixabay.com/photo/2017/02/05/00/19/web-design-2038872_1280.jpg");
     --bg-url-parallax-3: url("https://cdn.pixabay.com/photo/2017/06/19/05/36/jessica45-contact-us-2418235_1280.jpg");
-    
+
+    --bg-tarea-1: url("https://api.openverse.org/v1/images/ab1fe30a-aa06-4509-90e1-9a2d0a9ff152/thumb/");
+    --bg-tarea-2: url("https://www.w3schools.com/w3images/p2.jpg");
+    --bg-tarea-3: url("https://www.w3schools.com/w3images/p3.jpg");
+    --bg-tarea-4: url("assets/img/pixabay/cocoparisienne/la-bruja-de-la-casa-de-la-bruja_360.webp");
+    --bg-tarea-5: url("https://www.w3schools.com/w3images/p5.jpg");
+    --bg-tarea-6: url("https://www.w3schools.com/w3images/p6.jpg");
+    --bg-tarea-7: url("https://www.w3schools.com/w3images/p7.jpg");
+    --bg-tarea-8: url("https://www.w3schools.com/w3images/p8.jpg");
 }
 
 h1,
@@ -137,6 +145,45 @@ article.contacto address ul li a {
 
 .wu-parallax-3 {
     background-image: var(--bg-url-parallax-3);
+}
+
+.wu-bg-tarea {
+    width: 100%;
+    aspect-ratio: 4/3;
+    /* height: 100px; */
+    margin: 0;
+}
+
+.wu-bg-tarea-1 {
+    background-image: var(--bg-tarea-1);
+}
+
+.wu-bg-tarea-2 {
+    background-image: var(--bg-tarea-2);
+}
+
+.wu-bg-tarea-3 {
+    background-image: var(--bg-tarea-3);
+}
+
+.wu-bg-tarea-4 {
+    background-image: var(--bg-tarea-4);
+}
+
+.wu-bg-tarea-5 {
+    background-image: var(--bg-tarea-5);
+}
+
+.wu-bg-tarea-6 {
+    background-image: var(--bg-tarea-6);
+}
+
+.wu-bg-tarea-7 {
+    background-image: var(--bg-tarea-7);
+}
+
+.wu-bg-tarea-8 {
+    background-image: var(--bg-tarea-8);
 }
 
 .w3-wide {
