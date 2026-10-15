@@ -108,30 +108,30 @@ article.contacto address ul li a {
     width: 100%;
 }
 
-/* Parallax images */
-.bgimg-1,
-.bgimg-2,
-.bgimg-3 {
-    background-attachment: fixed;
+.wu-bgimg {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.bgimg-1 {
+/* Parallax images */
+.wu-fixed {
+    background-attachment: fixed;
+    min-height: 50vh;
+}
+
+.wu-portada {
     background-image: url("https://www.w3schools.com/w3images/parallax1.jpg");
-    min-height: 100%;
+    min-height: 100vh;
 }
 
-.bgimg-2 {
+.wu-parallax-2 {
     background-image: url("https://cdn.pixabay.com/photo/2017/02/05/00/19/web-design-2038872_1280.jpg");
-    min-height: 400px;
 }
 
-.bgimg-3 {
+.wu-parallax-3 {
     /* background-image: url('https://cdn.pixabay.com/photo/2015/01/25/21/02/phone-612061_1280.jpg'); */
     background-image: url("https://cdn.pixabay.com/photo/2017/06/19/05/36/jessica45-contact-us-2418235_1280.jpg");
-    min-height: 400px;
 }
 
 .w3-wide {
