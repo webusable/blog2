@@ -6,6 +6,11 @@
 
     --fontfamily-titles: "Isometra", serif;
     --fontfamily-textos: "Montserrat", sans-serif;
+
+    --bg-url-portada: url("https://www.w3schools.com/w3images/parallax1.jpg");
+    --bg-url-parallax-2: url("https://cdn.pixabay.com/photo/2017/02/05/00/19/web-design-2038872_1280.jpg");
+    --bg-url-parallax-3: url("https://cdn.pixabay.com/photo/2017/06/19/05/36/jessica45-contact-us-2418235_1280.jpg");
+    
 }
 
 h1,
@@ -122,17 +127,16 @@ article.contacto address ul li a {
 }
 
 .wu-portada {
-    background-image: url("https://www.w3schools.com/w3images/parallax1.jpg");
+    background-image: var(--bg-url-portada);
     min-height: 100vh;
 }
 
 .wu-parallax-2 {
-    background-image: url("https://cdn.pixabay.com/photo/2017/02/05/00/19/web-design-2038872_1280.jpg");
+    background-image: var(--bg-url-parallax-2);
 }
 
 .wu-parallax-3 {
-    /* background-image: url('https://cdn.pixabay.com/photo/2015/01/25/21/02/phone-612061_1280.jpg'); */
-    background-image: url("https://cdn.pixabay.com/photo/2017/06/19/05/36/jessica45-contact-us-2418235_1280.jpg");
+    background-image: var(--bg-url-parallax-3);
 }
 
 .w3-wide {
